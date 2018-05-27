@@ -1,0 +1,12 @@
+[user]
+	email = mcgillowen@gmail.com
+	name = Owen McGill
+[core]
+	excludesfile = /Users/mcgillo/.gitignore_global
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[diff]
+	colorMoved = zebra

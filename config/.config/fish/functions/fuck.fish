@@ -1,0 +1,1 @@
+/Users/mcgillo/.config/fisherman/thefuck/functions/fuck.fish
